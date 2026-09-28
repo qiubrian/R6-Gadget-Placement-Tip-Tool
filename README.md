@@ -155,6 +155,87 @@ Tactics can be organized by purpose:
 - Retreat route
 - Counter and fallback
 
+## Potential Threats and Operator Synergies
+
+Each tactic should identify the most likely threats to the selected operator’s setup.
+
+Directly beneath those threats, a **Plays Well With** section may recommend supporting operators that teammates can bring to protect or strengthen the setup.
+
+These are supporting recommendations only. The application does not need to show placements or complete guides for the supporting operators.
+
+### Example: Mira
+
+#### Potential Threats
+
+- Hard-breach utility destroying the reinforced wall
+- Projectiles or explosives clearing the position
+- Vertical pressure above or below the mirror
+- Attackers reaching the opposite side of the wall
+- The mirror canister being exposed
+- The Mira player losing a safe retreat route
+
+#### Plays Well With
+
+- **Kaid or Bandit — Wall denial**  
+  Helps prevent attackers from breaching the wall holding the Black Mirror.
+
+- **Wamai or Jäger — Projectile protection**  
+  Helps intercept projectiles intended to clear utility or force the Mira player away from the position.
+
+- **Mute — Disruption and drone denial**  
+  Can make it harder for attackers to gather information or use compatible electronic utility near the setup.
+
+Each recommendation should be connected to a specific threat rather than being presented as a generic team composition.
+
+### Synergy Information
+
+A synergy entry should contain:
+
+- Supporting operator
+- Support role
+- Threat addressed
+- One-sentence explanation
+- Importance level
+- Current patch verification
+
+Suggested importance levels:
+
+- **Required:** The tactic does not work as intended without this support.
+- **Strong:** The support meaningfully improves the tactic’s reliability.
+- **Optional:** Helpful, but the tactic remains functional without it.
+
+### Tactic-Specific Recommendations
+
+Synergies should be attached to the individual tactic, not only to the selected operator.
+
+For example, one Mira placement may be especially vulnerable to hard breach and strongly benefit from Kaid or Bandit. Another may be protected from the opposite side but exposed to projectiles, making Wamai or Jäger more relevant.
+
+The application should therefore present:
+
+`Selected tactic → Potential threats → Plays Well With`
+
+It should not assume that every placement for an operator has the same weaknesses or ideal supporting lineup.
+
+### Recommendation Rules
+
+Supporting recommendations must:
+
+- Explain exactly what the supporting operator contributes
+- Address a documented threat or dependency
+- Reflect the current game version
+- Account for unavailable or banned operators
+- Avoid presenting any synergy as a guaranteed counter
+- Avoid adding an operator merely because they are commonly selected
+- Offer role-based alternatives when multiple operators provide similar support
+
+The purpose of this section is to give the player a short, useful request they can communicate to teammates, such as:
+
+> “This Mira setup is vulnerable to the wall being opened. Kaid or Bandit would help protect it.”
+
+or:
+
+> “This position can be cleared with projectiles. Wamai or Jäger would make it safer.”
+
 ## Quick View and Practice View
 
 ### Quick View
